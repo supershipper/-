@@ -8,7 +8,13 @@
   * [chooseShareCardType/选择分享名片的方式](list/chooseShareCardType.md)
   * [cityPicker/省市联动选择](list/cityPicker.md)
   * [ec-canvas/echarts小程序图表组件](list/ec-canvas.md)
-  * [filterOfGoods/货盘筛选项](list/filterOfGoods.md)
+  * [filterOfGoods/筛选项-货盘](list/filterOfGoods.md)
+  * [filterOfPerson/筛选项-人](list/filterOfPerson.md)
+  * [getUserInfoTransparentPanel/授权之前的透明蒙层](list/getUserInfoTransparentPanel.md)
+  * [goodsSelect/货种选择（已淘汰）](list/goodsSelect.md)
+  * [identifyIcos/认证的Icons展示](list/identifyIcos.md)
+  * [navBar/左侧菜单栏](list/navBar.md)
+  * [popUp/弹窗](list/popUp.md)
   
 
   

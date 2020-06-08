@@ -12,11 +12,13 @@
 ## 事件
 |  事件名   | 携带参数  |  类型  | 说明 |
 |  ----  | ----  |  ----  | ----  |
-| selectDone  | startDate | String | 起始日期  |
+| selectDone  | ↓ | {} | 选择完成  |
+|             | startDate | String | 起始日期  |
 |             | endDate | String | 截止日期  |
 |             | minTon | Number | 最小货量  |
 |             | maxTon | Number | 最大货量  |
 |             | seaAreaId | Number | 起始港海域Id  |
+|    closed   | - | - | 关闭panel  |
 
 
 ## 插槽
@@ -37,12 +39,7 @@
 
 ```wxml
     <c-filter-goods bind:selectDone='filterGoods' bind:closed='closed'>
-        <view class="filter">
-            <view class="flexBox">
-                <text class="lightDark mgr10">筛选</text>
-                <image class="smallIcon" src="../../img/filter.png"></image>
-            </view>
-        </view>
+        <text>筛选</text>
     </c-filter-goods>
 ```
 

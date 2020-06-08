@@ -34,10 +34,10 @@
 ```wxml
 <c-call-gooder bind:authsuccess="authSuccess" is-auth="{{isAuth}}">
     <view slot="unauthorized">
-        <view class='toPay' >我要投保</view>
+        <view catchtap='toAuth' >我要投保</view>
     </view>
     <view slot="authorized">
-        <view class='toPay' catchtap='createInsuranceOrder'>我要投保</view>
+        <view catchtap='todo'>我要投保</view>
     </view>
 </c-call-gooder>
 ```
