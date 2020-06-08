@@ -14,9 +14,23 @@
     window.$docsify = {
       name: '',
       repo: '',
-      loadSidebar: true
+      loadSidebar: true,
+      scrollToTop: {
+          auto: true,
+          text: 'Top',
+          right: 15,
+          bottom: 15,
+          offset: 500
+      },
+      copyCode: {
+        buttonText : '点击复制',
+        errorText  : '失败',
+        successText: '成功'
+      }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 </body>
 </html>
