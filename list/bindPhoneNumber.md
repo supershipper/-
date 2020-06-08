@@ -11,7 +11,7 @@
 | isShow  | false | Boolean | 是否展示  |
 
 ## 事件
-|  事件名   | 参数  |  类型  | 说明 |
+|  事件名   | 携带参数  |  类型  | 说明 |
 |  ----  | ----  |  ----  | ----  |
 | bindphonesuccess  | - | - | 完成绑定  |
 
@@ -31,7 +31,7 @@
 ```
 
 ```js
-Component({
+Page({
     data: {
 		bindPhoneNumberPanelShow: false,
 	},
