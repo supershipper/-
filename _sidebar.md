@@ -21,6 +21,7 @@
   * [select/下拉框（远程搜索）](list/select.md)
   * [sidePopPanel/侧边弹出框](list/sidePopPanel.md)
   * [timeSelect/日期选择](list/timeSelect.md)
+  * [bottomBtn/底部蓝色按钮](list/bottomBtn.md)
   
 
   
